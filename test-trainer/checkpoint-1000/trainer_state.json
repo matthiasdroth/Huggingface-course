@@ -8,35 +8,15 @@
   "is_world_process_zero": true,
   "log_history": [
     {
-      "epoch": 1.0,
-      "eval_accuracy": 0.8627450980392157,
-      "eval_f1": 0.9037800687285222,
-      "eval_loss": 0.3628099858760834,
-      "eval_runtime": 16.7089,
-      "eval_samples_per_second": 24.418,
-      "eval_steps_per_second": 3.052,
-      "step": 459
-    },
-    {
       "epoch": 1.09,
       "learning_rate": 3.184458968772695e-05,
-      "loss": 0.5162,
+      "loss": 0.534,
       "step": 500
-    },
-    {
-      "epoch": 2.0,
-      "eval_accuracy": 0.8553921568627451,
-      "eval_f1": 0.8966725043782837,
-      "eval_loss": 0.4619154930114746,
-      "eval_runtime": 16.29,
-      "eval_samples_per_second": 25.046,
-      "eval_steps_per_second": 3.131,
-      "step": 918
     },
     {
       "epoch": 2.18,
       "learning_rate": 1.3689179375453886e-05,
-      "loss": 0.3032,
+      "loss": 0.3116,
       "step": 1000
     }
   ],

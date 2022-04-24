@@ -8,19 +8,9 @@
   "is_world_process_zero": true,
   "log_history": [
     {
-      "epoch": 1.0,
-      "eval_accuracy": 0.8627450980392157,
-      "eval_f1": 0.9037800687285222,
-      "eval_loss": 0.3628099858760834,
-      "eval_runtime": 16.7089,
-      "eval_samples_per_second": 24.418,
-      "eval_steps_per_second": 3.052,
-      "step": 459
-    },
-    {
       "epoch": 1.09,
       "learning_rate": 3.184458968772695e-05,
-      "loss": 0.5162,
+      "loss": 0.534,
       "step": 500
     }
   ],
