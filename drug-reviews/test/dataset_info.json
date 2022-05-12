@@ -5,11 +5,11 @@
   "dataset_size": 116144739,
   "description": "",
   "download_checksums": {
-    "/home/matthias/Desktop/Huggingface-course/data/drugsComTrain_raw.tsv": {
+    "/Users/matthias/Desktop/Huggingface/Huggingface-course/data/drugsComTrain_raw.tsv": {
       "num_bytes": 84289175,
       "checksum": "83992773f0f42b20b8c9798767e0f2ce5cf3428c721ee56176d65573d76455e4"
     },
-    "/home/matthias/Desktop/Huggingface-course/data/drugsComTest_raw.tsv": {
+    "/Users/matthias/Desktop/Huggingface/Huggingface-course/data/drugsComTest_raw.tsv": {
       "num_bytes": 28071166,
       "checksum": "1953e81451b3a43f162e3d438dc1f9c2ee83c9283968a19fce4d3736fdb03eac"
     }
