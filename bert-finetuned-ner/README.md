@@ -22,16 +22,16 @@ model-index:
     metrics:
     - name: Precision
       type: precision
-      value: 0.9375414181577203
+      value: 0.9331020812685827
     - name: Recall
       type: recall
-      value: 0.9523729384045776
+      value: 0.9506900033658701
     - name: F1
       type: f1
-      value: 0.944898981466021
+      value: 0.9418139379793263
     - name: Accuracy
       type: accuracy
-      value: 0.9869017483958321
+      value: 0.9865926885265203
 ---
 
 <!-- This model card has been generated automatically according to the information the Trainer had access to. You
@@ -41,11 +41,11 @@ should probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [bert-base-cased](https://huggingface.co/bert-base-cased) on the conll2003 dataset.
 It achieves the following results on the evaluation set:
-- Loss: 0.0598
-- Precision: 0.9375
-- Recall: 0.9524
-- F1: 0.9449
-- Accuracy: 0.9869
+- Loss: 0.0589
+- Precision: 0.9331
+- Recall: 0.9507
+- F1: 0.9418
+- Accuracy: 0.9866
 
 ## Model description
 
@@ -76,9 +76,9 @@ The following hyperparameters were used during training:
 
 | Training Loss | Epoch | Step | Validation Loss | Precision | Recall | F1     | Accuracy |
 |:-------------:|:-----:|:----:|:---------------:|:---------:|:------:|:------:|:--------:|
-| 0.0859        | 1.0   | 1756 | 0.0663          | 0.9161    | 0.9352 | 0.9255 | 0.9824   |
-| 0.0323        | 2.0   | 3512 | 0.0585          | 0.9267    | 0.9465 | 0.9365 | 0.9858   |
-| 0.0227        | 3.0   | 5268 | 0.0598          | 0.9375    | 0.9524 | 0.9449 | 0.9869   |
+| 0.0857        | 1.0   | 1756 | 0.0621          | 0.9181    | 0.9382 | 0.9281 | 0.9836   |
+| 0.0308        | 2.0   | 3512 | 0.0611          | 0.9228    | 0.9458 | 0.9342 | 0.9846   |
+| 0.0223        | 3.0   | 5268 | 0.0589          | 0.9331    | 0.9507 | 0.9418 | 0.9866   |
 
 
 ### Framework versions
