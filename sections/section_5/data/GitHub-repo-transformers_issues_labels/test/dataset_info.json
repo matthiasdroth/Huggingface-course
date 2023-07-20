@@ -1,0 +1,62 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 39920457,
+  "description": "",
+  "download_checksums": {
+    "/home/matthias/Desktop/MachineLearning/Huggingface-course/data/transformers-issues.jsonl": {
+      "num_bytes": 49260164,
+      "checksum": null
+    }
+  },
+  "download_size": 49260164,
+  "features": {
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "num_labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "arr_labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 89180621,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 39920457,
+      "num_examples": 10000,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
