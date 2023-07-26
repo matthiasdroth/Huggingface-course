@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 bin/*
 env/*
+lib64/*
 wandb/*
 sections/section_[0-9]*/logs
 sections/section_5/data/Zstandard_datasets/*

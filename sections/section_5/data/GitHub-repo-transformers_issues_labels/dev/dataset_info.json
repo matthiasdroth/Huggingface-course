@@ -2,15 +2,16 @@
   "builder_name": "json",
   "citation": "",
   "config_name": "default",
-  "dataset_size": 39920457,
+  "dataset_name": "json",
+  "dataset_size": 12083613,
   "description": "",
   "download_checksums": {
-    "/home/matthias/Desktop/MachineLearning/Huggingface-course/data/transformers-issues.jsonl": {
-      "num_bytes": 49260164,
+    "/home/matthias/Desktop/MachineLearning/Huggingface-course/sections/section_5/data/transformers-issues.jsonl": {
+      "num_bytes": 14944425,
       "checksum": null
     }
   },
-  "download_size": 49260164,
+  "download_size": 14944425,
   "features": {
     "url": {
       "dtype": "string",
@@ -44,12 +45,12 @@
   },
   "homepage": "",
   "license": "",
-  "size_in_bytes": 89180621,
+  "size_in_bytes": 27028038,
   "splits": {
     "train": {
       "name": "train",
-      "num_bytes": 39920457,
-      "num_examples": 10000,
+      "num_bytes": 12083613,
+      "num_examples": 3000,
       "dataset_name": "json"
     }
   },
