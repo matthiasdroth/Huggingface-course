@@ -7,4 +7,5 @@ sections/section_[0-9]*/logs
 sections/section_5/data/Zstandard_datasets/*
 *.DS_Store
 *.bin
+*.safetensors
 */optimizer.pt
