@@ -6,7 +6,11 @@ wandb/*
 sections/section_[0-9]*/logs
 sections/section_5/data/Zstandard_datasets/*
 .env
+<<<<<<< HEAD
 *.DS_Store
+=======
+>>>>>>> dev_backup
 *.bin
+*.DS_Store
 *.safetensors
 */optimizer.pt
